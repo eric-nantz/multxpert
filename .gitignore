@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+multxpert.Rproj
+*.aux
+*.log
+*.out
+multxpert-*.pdf
+inst/examples/cache
+inst/examples/figure
+git-config-information.md

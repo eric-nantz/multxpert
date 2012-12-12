@@ -1,0 +1,8 @@
+.gitignore
+tikzDictionary$
+aux$
+log$
+out$
+NEWS.md
+^.*\.Rproj$
+^\.Rproj\.user$

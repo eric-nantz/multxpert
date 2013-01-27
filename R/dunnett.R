@@ -1,13 +1,16 @@
-# PDunnett is a secondary function which computes the cumulative 
-# distribution function of the Dunnett distribution in one-sided 
-# hypothesis testing problems with a balanced one-way layout and 
-# equally weighted null hypotheses
-#library(mvtnorm)
-pdunnett<-function(x,df,m)
-# X, Argument
-# DF, Number of degrees of freedom
-# M, Number of comparisons
-{
+#' @importFrom mvtnorm pmvt qmvt
+pdunnett<-function(x,df,m) {
+  
+  # PDunnett is a secondary function which computes the cumulative 
+  # distribution function of the Dunnett distribution in one-sided 
+  # hypothesis testing problems with a balanced one-way layout and 
+  # equally weighted null hypotheses
+  #library(mvtnorm)
+  
+  # X, Argument
+  # DF, Number of degrees of freedom
+  # M, Number of comparisons
+
 	# Correlation matrix
 	corr<-matrix(0.5,m,m)
 	for (i in 1:m) corr[i,i]<-1

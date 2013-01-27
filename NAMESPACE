@@ -1,3 +1,7 @@
-importFrom(mvtnorm, pmvt, qmvt)
-
-export(paradjp, pargateadjp, pvaladjp, pvalci, parci)
+export(paradjp)
+export(parci)
+export(pargateadjp)
+export(pvaladjp)
+export(pvalci)
+importFrom(mvtnorm,pmvt)
+importFrom(mvtnorm,qmvt)

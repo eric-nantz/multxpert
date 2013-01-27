@@ -19,4 +19,4 @@ check("~/Dropbox/rpodcast_code/multxpert/")
 
 # turn off dev_mode
 
-dev_mode()\
+dev_mode()

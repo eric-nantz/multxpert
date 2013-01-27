@@ -5,4 +5,7 @@ log$
 out$
 NEWS.md
 ^.*\.Rproj$
+^.*\.Rhistory$
 ^\.Rproj\.user$
+git-config-information.md
+package_builder.R
